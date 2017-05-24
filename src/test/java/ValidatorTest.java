@@ -9,7 +9,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by ingridmayer on 29/03/2017.
+ * Created by Flaviu on 29/03/2017.
  */
 public class ValidatorTest {
     private Validator vali;

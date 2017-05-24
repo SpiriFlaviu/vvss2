@@ -14,8 +14,8 @@ public class StudentTest {
     private Student s2;
     @Before
     public void setUp() throws Exception {
-        s1 = new Student("studentu1 nr 1","Ingrid Mayer",731);
-        s2 = new Student( "studentul nr 2", "Ingrid Mayer", 721);
+        s1 = new Student("studentul nr 1","Ingrid Mayer",731);
+        s2 = new Student( "studentul nr 2", "Flaviu Berbecariu", 721);
     }
     // constructor
 
@@ -40,13 +40,13 @@ public class StudentTest {
 
     @Test
     public void getName() throws Exception {
-        assertEquals("getName crapat", "student1", s1.getName());
-        assertEquals("getName crapat", "student2", s2.getName());
+        assertEquals("getName crapat", "Ingrid Mayer", s1.getName());
+        assertEquals("getName crapat", "Flaviu Berbecariu", s2.getName());
     }
 
     @Test
     public void setName() throws Exception {
-        s1.setName("student2");
+        s1.setName("student1");
         assertEquals("setName fail", "student1", s1.getName());
 
         s1.setName("student2");
@@ -56,7 +56,7 @@ public class StudentTest {
     @Test
     public void getGroup() throws Exception {
         assertEquals("getGroup crapat", 731, s1.getGroup());
-        assertEquals("getGroup crapat", 733, s2.getGroup());
+        assertEquals("getGroup crapat", 721, s2.getGroup());
     }
 
     @Test
