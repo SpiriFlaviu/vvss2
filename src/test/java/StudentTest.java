@@ -40,7 +40,7 @@ public class StudentTest {
 
     @Test
     public void getName() throws Exception {
-        assertEquals("getName crapat", "Ingrid Mayer", s1.getName());
+        assertEquals("getName crapat", "Ingrid Mayerr", s1.getName());
         assertEquals("getName crapat", "Flaviu Berbecariu", s2.getName());
     }
 
